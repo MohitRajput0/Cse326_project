@@ -1,0 +1,180 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #ffffff;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content container */
+  .container {
+    padding: 22px;
+    background-color: rgba(0, 0, 0, 0.902);
+  }
+  
+  /* Tab content */
+  .tab {
+    display: none;
+  }
+  
+  #home {
+    display: block;
+    
+  }
+  
+  /* Home section */
+  .home-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .featured-books {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./digi.jpg);
+    opacity: 5;
+    
+  }
+  
+  .book {
+    text-align: center;
+  }
+  
+  .book img {
+    width: 150px;
+    height: 225px;
+  }
+  
+  .book h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /* About Us section */
+  .about-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  /* Contact Us section */
+  .contact-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form {
+    margin-top: 20px;
+  }
+  
+  .contact-us input, .contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-us button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-us button:hover {
+    background-color: #333;
+  }
+  
+  /* Content section */
+  .book-categories h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .book-categories .category-list {
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
+  .category {
+    width: 30%;
+  }
+  
+  .category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .category ul {
+    list-style: none;
+    font-size: 18px;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }

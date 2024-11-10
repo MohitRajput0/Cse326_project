@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Digi Books</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#" onclick="showTab('home')">Home</a></li>
+        <li><a href="#" onclick="showTab('content')">Content</a></li>
+        <li><a href="#" onclick="showTab('about')">About Us</a></li>
+        <li><a href="#" onclick="showTab('contact')">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <div class="container">
+    <div id="content" class="tab">
+      <section class="book-categories">
+        <h1>Welcome to Digi Books</h1>
+        <p>An online platform where book enthusiasts can discover new books</p><br>
+        <div class="featured-books">
+          <div class="book">
+            <a href="https://www.gutenberg.org/ebooks/74706"><img src="BOOK1.png" alt="Book 1"></a>
+            <h3>In the clouds</h3><br>
+            <p>by CHARLES EGBERT CRADDOCK</p>
+          </div>
+          <div class="book">
+            <a href="https://openlibrary.org/books/OL32807914M/Winter_Trees"><img src="Book.png" alt="Book 2"></a>
+            <h3>Winter_Trees</h3><br>
+            <p>by KIM STOKELY</p>
+          </div>
+          <div class="book">
+            <a href="https://www.gutenberg.org/ebooks/74709"><img src="book11.png" alt="Book 3"></a>
+            <h3>A Knight of the Air</h3><br>
+            <p>by HENRRY COXWELL</p>
+          </div>
+          <div class="book">
+            <a href="https://openlibrary.org/works/OL17930368W/Atomic_Habits"><img src="book4.png" alt="Book 4"></a>
+            <h3>Atomic Habits</h3><br>
+            <p>by JAMES CLEAR</p>
+          </div>
+          <div class="book">
+            <a href="https://openlibrary.org/works/OL38078225W/Phineas_Redux"><img src="book5.png" alt="Book 5"></a>
+            <h3>Phineas Redux</h3><br>
+            <p>by ANTHONY TROLLOPE</p>
+          </div>
+          <div class="book">
+            <a href="https://www.gutenberg.org/ebooks/74702"><img src="BOOK2.png" alt="Book 6"></a>
+            <h3>The Bee No. 30</h3><br>
+            <p>by VARIOUS</p>
+          </div>
+          
+        </div>
+        <div class="featured-books">
+          <div class="book">
+            <a href="https://globalcomix.com/c/batman-three-jokers/chapters/en/1/1/1"><img src="BOOK7.png" alt="Book 7"></a>
+            <h3>Batman Three Jokers</h3><br>
+            <p>by DC</p>
+          </div>
+          <div class="book">
+            <a href="https://globalcomix.com/c/radiant-black/chapters/en/1/1/1"><img src="book8.png" alt="Book 8"></a>
+            <h3>Radiant Black</h3><br>
+            <p>by IMAGE COMICS</p>
+          </div>
+          <div class="book">
+            <a href="https://globalcomix.com/c/brzrkr/chapters/en/1/1/1"><img src="book9.png" alt="Book 9"></a>
+            <h3>Brzrkr</h3><br>
+            <p>by BOOM! Studio</p>
+          </div>
+          <div class="book">
+            <a href="https://globalcomix.com/c/transformers/chapters/en/1/1/1"><img src="BOOK3.png" alt="Book 10"></a>
+            <h3>Transformers</h3><br>
+            <p>by IMAGE COMICS<p>
+          </div>
+          <div class="book">
+            <a href="https://globalcomix.com/c/batman-the-long-halloween/chapters/en/1/1/1"><img src="BOOK6.png" alt="Book 12"></a>
+            <h3>Batman-The Long Halloween</h3><br>
+            <p>by DC</p>
+          </div>
+          
+          <div class="book">
+            <a href="https://globalcomix.com/c/space-pirate-captain-warlock/chapters/en/1/1"><img src="BOOK12.png" alt="Book 12"></a>
+            <h3>Captain Harlock</h3><br>
+            <p>JEROME ALQUIE</p>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+
+    <div id="about" class="tab">
+      <section class="about-us">
+        <h1>About Us</h1>
+        <p>We are passionate about books and aim to provide a wide variety of titles, from bestsellers to hidden gems. Our goal is to promote reading for all ages and interests. Our collection includes books in genres such as fiction, non-fiction, mystery, fantasy, self-help, and more!</p>
+        <img src="digi.jpg" alt="About Us" />
+      </section>
+    </div>
+
+    <div id="contact" class="tab">
+      <section class="contact-us">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Reach out for any inquiries or feedback:</p>
+        <ul>
+          <li>Email: <a href="mailto:mohitkudra@gmail.com">mohitkudra@gmail.com</a></li>
+          <li>Phone: <a href="tel:93048XXXXX">93048XXXXX</a></li>
+          <li>Location: SECTOR 62, Noida</li>
+        </ul>
+        <form action="#" method="post">
+          <h3>Send Us a Message</h3>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+
+    <div id="home" class="tab">
+      <section class="home-content">
+        <h1>Welcome to Digi Books</h1>
+        <p>An online platform where book enthusiasts can discover new books</p>
+      </section>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Digi Books | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html
